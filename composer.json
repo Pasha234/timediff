@@ -1,0 +1,22 @@
+{
+    "name": "pasha234/timediff",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pasha234\\TimeDiff\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pasha234"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "scripts": {
+        "test": [
+            "phpunit"
+        ]
+    }
+}
