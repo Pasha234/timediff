@@ -12,7 +12,7 @@ class TimeDiff {
     private $currentTime;
 
     public function __construct(DateTimeInterface $currentTime = null) {
-      $this->currentTime = $currentTime ?: new DateTime();
+        $this->currentTime = $currentTime ?: new DateTime();
     }
 
 
