@@ -11,6 +11,9 @@
             "name": "Pasha234"
         }
     ],
+    "require": {
+        "php": ">=5.5"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9"
     },
